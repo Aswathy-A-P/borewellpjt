@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="about.css">
+  <script defer src="about.js"></script>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission & Vision</title>
+  <style>
+    .about-banner {
+
+      position: relative;
+      /* width: 100vw; */
+      /* Ensures full container width */
+      height: 450px;
+      /* Adjust height as needed */
+      background: url('mission-img.jpg') no-repeat center center;
+      background-size: cover;
+      /* Ensures image covers full width */
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      /* Ensures no extra spacing */
+    }
+
+    h1 {
+      color: #E53935;
+    }
+
+    h3 {
+      color: rgba(242, 60, 108, 0.899);
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 30px;
+    }
+
+    .mision-container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+      text-align: center;
+
+    }
+
+    h1 {
+      color: #002868;
+      font-size: 32px;
+      font-weight: bold;
+
+    }
+
+
+    .boxes {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      flex: 1;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border: 1px solid #ddd;
+      min-width: 300px;
+    }
+
+    .box img {
+      width: 60px;
+      height: auto;
+    }
+
+    .box h2 {
+      color: red;
+      font-size: 22px;
+      margin: 15px 0;
+    }
+
+    .box p {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .boxes {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .box {
+        width: 90%;
+        margin-bottom: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .box {
+        width: 100%;
+        padding: 20px;
+      }
+
+      .box h2 {
+        font-size: 20px;
+      }
+
+      .box p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <header class="top-bar">
+    <div class="contact-info">
+      <span>📞 +91-94478-26375</span>
+      <span>✉ <a href="mailto:asianborewellsandpumps.kerala@gmail.com"
+          style="color: white; text-decoration: none;">info@asianborewell.co.in</a></span>
+    </div>
+    <a href="contact.html" class="enquire-btn">Enquire Now →</a>
+  </header>
+
+
+  <!-- Navigation -->
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo-img.png" alt="Asian Borewells Logo">
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+
+      <!-- About Us with Dropdown -->
+      <li class="dropdown">
+        <a href="#">About Us ▼</a>
+        <ul class="dropdown-menu">
+          <li><a href="about.html">Company Profile</a></li>
+          <li><a href="mision.html">Mission & Vision</a></li>
+          <li><a href="quality.html">Quality Policy</a></li>
+          <li><a href="client.html">Clientele</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#">Projects ▼</a>
+        <ul class="dropdown-menu">
+          <li><a href="projects.html">Major Projects</a></li>
+          <li><a href="turnover.html">Turnover in years</a></li>
+        </ul>
+      </li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="equipments.html">Fleet of Equipments</a></li>
+      <li><a href="career.html">Career</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="hamburger-menu">&#9776;</div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <ul class="mobile-menu">
+
+    <li><a href="index.html" class="active" style="margin-top: 40px;">Home</a></li>
+
+    <!-- About Us with Dropdown -->
+
+    <li><a href="about.html">Company Profile</a></li>
+    <li><a href="mision.html">Mission & Vision</a></li>
+    <li><a href="quality.html">Quality Policy</a></li>
+    <li><a href="client.html">Clientele</a></li>
+
+    <li><a href="projects.html">Major Projects</a></li>
+    <li><a href="turnover.html">Turnover in years</a></li>
+    <li><a href="service.html">Services</a></li>
+    <li><a href="equipments.html">Fleet of Equipments</a></li>
+    <li><a href="career.html">Career</a></li>
+    <li><a href="contact.html">Contact</a></li>
+
+  </ul>
+
+  <!-- About Us Banner -->
+
+  <section class="about-banner">
+    <!-- <div class="banner-content">
+      <h1>Mission and Vision</h1>
+      <p>Home / About / <span>Mission & Vision</span></p>
+    </div> -->
+  </section>
+
+  <div class="mision-container">
+    <h1>MISSION & VISION</h1>
+    <div class="boxes">
+      <div class="box">
+        <img src="missionicon.png" alt="Mission Icon">
+        <h2>MISSION</h2>
+        <p>By choosing the project wisely and by carrying out quality construction in a timely manner, the company
+          strives to grow in an orderly manner.
+          In the construction activity, the interests of the employer, project-affected persons, and public at large
+          would be taken care of.
+          The company would always strive to absorb new technologies and innovative methods in construction.</p>
+        <p>Apart from road and bridge construction on the international front, we also look forward to being in Water
+          and Waste Management,
+          Special Economic Zones, Urban Infrastructure, Ports, and Airport sectors.</p>
+      </div>
+      <div class="box">
+        <img src="missionicon.png" alt="Vision Icon">
+        <h2>VISION</h2>
+        <p>Our vision is to become the major player in India’s infrastructural sector by focusing on the quality and
+          timely delivery of the projects.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- <h1>CORE VALUES</h1>
+  <p>Our company stands on five core values: <b>Leadership, Integrity, Excellence, Accountability,</b> and
+    <b>Responsibility</b>.
+  </p>
+  <div class="containerr">
+    <img src="corevalue.jpg" style="width: 600px; height: 500px;">
+
+  </div> -->
+
+  <div class="container">
+    <div class="text-content">
+      <h1>Our Core Values
+      </h1>
+      <!-- <img src="corevalue.jpg" alt="Company Profile Image" style="width: 500px; height: 500px;"> -->
+
+      <h3>Innovation & Excellence</h3>
+      <p>
+        We continuously adopt new technologies and best practices to enhance our borewell services, ensuring precision,
+        efficiency, and long-term reliability.
+      </p>
+      <h3>Integrity & Transparency</h3>
+      <p>
+        We believe in honest communication and ethical business practices, ensuring that our clients receive trustworthy
+        services with no hidden costs.
+      </p>
+      <h3>Customer-Centric Approach
+      </h3>
+      <p>Our clients are at the heart of everything we do. We are dedicated to understanding their needs and delivering
+        customized solutions that exceed expectations.
+      </p>
+      <h3> Sustainability & Responsibility
+
+      </h3>
+      <P>We are committed to eco-friendly drilling practices that protect groundwater resources and support long-term
+        water conservation.
+
+      </P>
+      <h3>Safety & Professionalism
+
+      </h3>
+      <p>From on-site safety protocols to expert handling of equipment, we prioritize the well-being of our employees,
+        clients, and the environment.
+      </p>
+      <h3>Teamwork & Growth
+
+      </h3>
+      <p>We foster a culture of collaboration, skill development, and continuous learning, ensuring that our team
+        remains at the forefront of the industry.
+      </p>
+
+    </div>
+
+    <div class="image-content">
+      <img src="corevalue.jpg" alt="Company Profile Image"
+        style="height: 600px; border-radius: 20px; margin-left: 20px;">
+    </div>
+  </div>
+
+
+  <!-- Call-to-Action Section -->
+  <div class="cta-section">
+    <p>WANT TO KNOW MORE ABOUT EKK INFRASTRUCTURE LIMITED PROJECTS AND SERVICES?</p>
+    <button class="cta-button"><a href="contact.html" style="text-decoration: none;">Enquire Now →</a></button>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Corporate Office -->
+      <div class="footer-section">
+        <h3>Corporate Office</h3>
+        <p><strong>ASIAN BOREWELLS & PUMPS</strong></p>
+        <p>Panvel - Kochi - Kanyakumari Hwy,</p>
+        <p>Ponnurunni, Vyttila – 682032,</p>
+        <p>Ernakulam – Kerala</p>
+      </div>
+
+      <!-- Company Links -->
+      <div class="footer-section">
+        <h3>Company</h3>
+        <p><a href="client.html">Clients</a></p>
+        <p><a href="quality.html">Quality Policy</a></p>
+        <p><a href="about.html">Company Profile</a></p>
+      </div>
+
+
+
+      <!-- Connect Us -->
+      <div class="footer-section">
+        <h3>Connect Us</h3>
+        <p>📞 <a href="tel:+919447826375">+91-94478-26375</a></p>
+        <p>📱 <a href="tel:+919447503892">+91-94475-03892</a></p>
+        <p>✉️ <a href="mailto:asianborewellsandpumps.kerala@gmail.com">asianborewellsandpumps.kerala@gmail.com</a></p>
+        <p>🌐 <a href="http://127.0.0.1:5500/" target="_blank">www.asianborewell.co.in</a></p>
+      </div>
+
+      <!-- Projects -->
+      <div class="footer-section">
+        <h3>Projects</h3>
+        <p><a href="projects.html">Major Projects</a></p>
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+  </footer>
+
+  <!-- Bottom Section -->
+  <div class="footer-bottom">
+    <p>Copyright © ekk.co.in. Developed by: Creative Web Designer.</p>
+    <div class="social-icons">
+      <a href="https://m.facebook.com/p/Asian-Borewell-and-Pumps-100068180545076/"><img src="facebook.png"
+          alt="Facebook"></a>
+
+      <a href="https://www.instagram.com/asian_borewells_kerala/?locale=de&hl=am-et"><img src="insta.png"
+          alt="Instagram"></a>
+      <a href="https://www.youtube.com/channel/UC6-QHeANscMWt4uvyZGsXww"><img src="youtube.png" alt="YouTube"></a>
+      <a
+        href="https://www.justdial.com/Ernakulam/Asian-Borewell-And-Pumps-Near-Bye-Pass-Road-Kothamangalam-Ernakulam/0484PX484-X484-180212144516-A6A2_BZDET"><img
+          src="justdialicon.png" style="width: 30px;" alt="Facebook"></a>
+      <a href="https://www.quickerala.com/amp/ernakulam/perumbavoor/asian-borewells-and-pumps/441832"><img
+          src="quickkeralaicon.jpg" alt="Facebook"></a>
+    </div>
+    <a href="#" class="scroll-top">⬆</a>
+  </div>
+
+</body>
+
+</html>

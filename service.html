@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services Section</title>
+  <link rel="stylesheet" href="about.css">
+  <script defer src="about.js"></script>
+
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+
+    .about-banner {
+
+      position: relative;
+      /* width: 100vw; */
+      /* Ensures full container width */
+      height: 600px;
+      /* Adjust height as needed */
+      background: url('indeximg3.jpg') no-repeat center center;
+      background-size: cover;
+      /* Ensures image covers full width */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      /* Ensures no extra spacing */
+    }
+
+
+    .service-container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #002868;
+      font-size: 32px;
+      font-weight: bold;
+      text-transform: uppercase;
+      position: relative;
+      display: inline-block;
+    }
+
+    h1::after {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 3px;
+      background-color: #E9A823;
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+    }
+
+    .service {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 40px 0;
+      gap: 20px;
+    }
+
+    .service:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .service-text {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .service-text h2 {
+      color: rgba(242, 60, 108, 0.899);
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .service-text p {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .service-image {
+      flex: 1;
+      max-width: 500px;
+    }
+
+    .service-image img {
+      width: 100%;
+      height: 400px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .service {
+        flex-direction: column !important;
+        text-align: center;
+      }
+
+      .service-text {
+        padding: 10px;
+      }
+
+      .service-image img {
+        width: 400px;
+        height: 400px;
+        margin: 20px;
+      }
+
+      .spaced {
+        margin-top: 680px;
+      }
+
+      .about-banner {
+        height: 550px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <header class="top-bar">
+    <div class="contact-info">
+      <span>📞 +91-94478-26375</span>
+      <span>✉ <a href="mailto:asianborewellsandpumps.kerala@gmail.com"
+          style="color: white; text-decoration: none;">info@asianborewell.co.in</a></span>
+    </div>
+    <a href="contact.html" class="enquire-btn">Enquire Now →</a>
+  </header>
+
+
+  <!-- Navigation -->
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo-img.png" alt="Asian Borewells Logo">
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+
+      <!-- About Us with Dropdown -->
+      <li class="dropdown">
+        <a href="#">About Us ▼</a>
+        <ul class="dropdown-menu">
+          <li><a href="about.html">Company Profile</a></li>
+          <li><a href="mision.html">Mission & Vision</a></li>
+          <li><a href="quality.html">Quality Policy</a></li>
+          <li><a href="client.html">Clientele</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#">Projects ▼</a>
+        <ul class="dropdown-menu">
+          <li><a href="projects.html">Major Projects</a></li>
+          <li><a href="turnover.html">Turnover in years</a></li>
+        </ul>
+      </li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="equipments.html">Fleet of Equipments</a></li>
+      <li><a href="career.html">Career</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="hamburger-menu">&#9776;</div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <ul class="mobile-menu">
+
+    <li><a href="index.html" class="active" style="margin-top: 40px;">Home</a></li>
+
+    <!-- About Us with Dropdown -->
+
+    <li><a href="about.html">Company Profile</a></li>
+    <li><a href="mision.html">Mission & Vision</a></li>
+    <li><a href="quality.html">Quality Policy</a></li>
+    <li><a href="client.html">Clientele</a></li>
+
+    <li><a href="projects.html">Major Projects</a></li>
+    <li><a href="turnover.html">Turnover in years</a></li>
+    <li><a href="service.html">Services</a></li>
+    <li><a href="equipments.html">Fleet of Equipments</a></li>
+    <li><a href="career.html">Career</a></li>
+    <li><a href="contact.html">Contact</a></li>
+
+  </ul>
+
+
+  <!-- About Us Banner -->
+
+  <section class="about-banner">
+    <div class="banner-content">
+      <h1>SERVICES</h1>
+      <p>Home / About Us / <span>Services</span></p>
+    </div>
+  </section>
+  <div class="service-container">
+    <h1>SERVICES</h1>
+
+    <div class="service">
+      <div class="service-text">
+        <h2>Borewell Drilling Services</h2>
+        <p>We provide expert borewell drilling services for residential, commercial, and agricultural needs. Using
+          advanced machinery and geological analysis, we ensure precise drilling with maximum water yield. Our team
+          follows safe and efficient drilling techniques to deliver long-lasting borewell solutions customized to your
+          location and water requirements.
+        </p>
+      </div>
+      <div class="service-image">
+        <img src="service-img1.jpg" alt="Road Construction">
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-text">
+        <h2>Borewell Cleaning & Maintenance</h2>
+        <p> Borewell Cleaning & Maintenance
+          Regular borewell maintenance ensures a continuous and safe water supply. Our cleaning services remove silt,
+          sand, and debris, preventing blockages and contamination. We use high-pressure jetting and advanced techniques
+          to restore water flow, improving borewell efficiency and lifespan while maintaining water purity for domestic,
+          agricultural, or industrial use.</p>
+      </div>
+      <div class="service-image">
+        <img src="service-img2.jpg" alt="Airport Construction">
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-text">
+        <h2>Borewell Reboring & Deepening</h2>
+        <p>If your borewell has dried up or provides insufficient water, our reboring and deepening services help
+          restore its functionality. We use advanced drilling methods to reach deeper water sources, ensuring a steady
+          and enhanced water supply. Our expert team carefully evaluates soil and water conditions for the best results.
+        </p>
+      </div>
+      <div class="service-image">
+        <img src="service-img3.jpg" alt="Airport Construction">
+      </div>
+    </div>
+    <div class="service">
+      <div class="service-text">
+        <h2>Borewell Flushing & Jet Cleaning</h2>
+        <p>Over time, borewells accumulate sediments, reducing water flow. Our flushing and jet cleaning services remove
+          blockages using high-pressure water jets, improving borewell performance. This process enhances water yield,
+          prevents contamination, and ensures uninterrupted access to clean water for residential, commercial, and
+          agricultural purposes.</p>
+      </div>
+      <div class="service-image">
+        <img src="service-img4.jpg" alt="Airport Construction">
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-text">
+        <h2>Borewell Camera Inspection</h2>
+        <p>We use high-resolution borewell cameras to inspect internal conditions, detecting blockages, damages, or
+          contamination. This non-invasive method helps in diagnosing problems accurately, allowing us to provide
+          targeted solutions. Our advanced borewell inspection service ensures efficient maintenance and enhances the
+          longevity of your borewell system.
+        </p>
+      </div>
+      <div class="service-image">
+        <img src="service-img5.png" alt="Airport Construction">
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-text">
+        <h2>Water Yield Testing</h2>
+        <p>Our water yield testing service measures the borewell’s water output capacity, ensuring sufficient supply for
+          your needs. Using scientific methods, we assess water availability, helping in efficient planning for
+          domestic, agricultural, and industrial applications. This test is crucial for optimizing pump installation and
+          sustainable water management.</p>
+      </div>
+      <div class="service-image">
+        <img src="service-img6.jpg" alt="Airport Construction">
+      </div>
+    </div>
+    <div class="service">
+      <div class="service-text">
+        <h2> Submersible & Hand Pump Installation
+        </h2>
+        <p>We specialize in the installation of high-quality submersible and hand pumps for borewells. Our team ensures
+          proper alignment, electrical safety, and efficiency for optimal water extraction. Whether for domestic or
+          agricultural use, our expert installation guarantees reliable, long-lasting, and cost-effective water pumping
+          solutions.</p>
+      </div>
+      <div class="service-image">
+        <img src="service-img7.jpg" alt="Airport Construction">
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-text">
+        <h2> 8. Rainwater Harvesting & Groundwater Recharge
+
+        </h2>
+        <p>Our rainwater harvesting and groundwater recharge solutions help conserve water and replenish underground
+          sources. We design efficient systems that collect, filter, and store rainwater, reducing dependency on
+          borewells and ensuring long-term water sustainability. Ideal for homes, industries, and farms, our solutions
+          promote eco-friendly water management.
+          p>
+      </div>
+      <div class="service-image">
+        <img src="service-img8.jpg" alt="Airport Construction">
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-text">
+        <h2> Borewell Consultation & Site Survey
+        </h2>
+        <p>Before drilling, we conduct thorough site inspections and geophysical surveys to identify the best location
+          for your borewell. Our expert consultation ensures maximum water yield, cost efficiency, and long-term
+          sustainability. With scientific analysis and professional guidance, we help you make informed decisions for
+          your water needs.</p>
+      </div>
+      <div class="service-image">
+        <img src="service-img9.png" alt="Airport Construction">
+      </div>
+    </div>
+  </div>
+
+  <!-- Call-to-Action Section -->
+  <div class="cta-section">
+    <p>WANT TO KNOW MORE ABOUT EKK INFRASTRUCTURE LIMITED PROJECTS AND SERVICES?</p>
+    <button class="cta-button"><a href="contact.html" style="text-decoration: none;">Enquire Now →</a></button>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Corporate Office -->
+      <div class="footer-section">
+        <h3>Corporate Office</h3>
+        <p><strong>ASIAN BOREWELLS & PUMPS</strong></p>
+        <p>Panvel - Kochi - Kanyakumari Hwy,</p>
+        <p>Ponnurunni, Vyttila – 682032,</p>
+        <p>Ernakulam – Kerala</p>
+      </div>
+
+      <!-- Company Links -->
+      <div class="footer-section">
+        <h3>Company</h3>
+        <p><a href="client.html">Clients</a></p>
+        <p><a href="quality.html">Quality Policy</a></p>
+        <p><a href="about.html">Company Profile</a></p>
+      </div>
+
+
+
+      <!-- Connect Us -->
+      <div class="footer-section">
+        <h3>Connect Us</h3>
+        <p>📞 <a href="tel:+919447826375">+91-94478-26375</a></p>
+        <p>📱 <a href="tel:+919447503892">+91-94475-03892</a></p>
+        <p>✉️ <a href="mailto:asianborewellsandpumps.kerala@gmail.com">asianborewellsandpumps.kerala@gmail.com</a></p>
+        <p>🌐 <a href="http://127.0.0.1:5500/" target="_blank">www.asianborewell.co.in</a></p>
+      </div>
+
+      <!-- Projects -->
+      <div class="footer-section">
+        <h3>Projects</h3>
+        <p><a href="projects.html">Major Projects</a></p>
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+  </footer>
+
+  <!-- Bottom Section -->
+  <div class="footer-bottom">
+    <p>Copyright © ekk.co.in. Developed by: Creative Web Designer.</p>
+    <div class="social-icons">
+      <a href="https://m.facebook.com/p/Asian-Borewell-and-Pumps-100068180545076/"><img src="facebook.png"
+          alt="Facebook"></a>
+
+      <a href="https://www.instagram.com/asian_borewells_kerala/?locale=de&hl=am-et"><img src="insta.png"
+          alt="Instagram"></a>
+      <a href="https://www.youtube.com/channel/UC6-QHeANscMWt4uvyZGsXww"><img src="youtube.png" alt="YouTube"></a>
+      <a
+        href="https://www.justdial.com/Ernakulam/Asian-Borewell-And-Pumps-Near-Bye-Pass-Road-Kothamangalam-Ernakulam/0484PX484-X484-180212144516-A6A2_BZDET"><img
+          src="justdialicon.png" style="width: 30px;" alt="Facebook"></a>
+      <a href="https://www.quickerala.com/amp/ernakulam/perumbavoor/asian-borewells-and-pumps/441832"><img
+          src="quickkeralaicon.jpg" alt="Facebook"></a>
+    </div>
+    <a href="#" class="scroll-top">⬆</a>
+  </div>
+
+</body>
+
+</html>

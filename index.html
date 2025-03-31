@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construction Company</title>
+  <link rel="stylesheet" href="index.css">
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+
+  <header class="top-bar">
+    <div class="contact-info">
+      <span>📞 +91-94478-26375</span>
+      <span>✉ <a href="mailto:asianborewellsandpumps.kerala@gmail.com"
+          style="color: white; text-decoration: none;">info@asianborewell.co.in</a></span>
+    </div>
+    <a href="contact.html" class="enquire-btn">Enquire Now →</a>
+  </header>
+
+
+  <!-- Navigation -->
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo-img.png" alt="Asian Borewells Logo">
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+
+      <!-- About Us with Dropdown -->
+      <li class="dropdown">
+        <a href="#">About Us ▼</a>
+        <ul class="dropdown-menu">
+          <li><a href="about.html">Company Profile</a></li>
+          <li><a href="mision.html">Mission & Vision</a></li>
+          <li><a href="quality.html">Quality Policy</a></li>
+          <li><a href="client.html">Clientele</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#">Projects ▼</a>
+        <ul class="dropdown-menu">
+          <li><a href="projects.html">Major Projects</a></li>
+          <li><a href="turnover.html">Turnover in years</a></li>
+        </ul>
+      </li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="equipments.html">Fleet of Equipments</a></li>
+      <li><a href="career.html">Career</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="hamburger-menu">&#9776;</div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <ul class="mobile-menu">
+
+    <li><a href="index.html" class="active" style="margin-top: 20px;">Home</a></li>
+
+    <!-- About Us with Dropdown -->
+
+    <li><a href="about.html">Company Profile</a></li>
+    <li><a href="mision.html">Mission & Vision</a></li>
+    <li><a href="quality.html">Quality Policy</a></li>
+    <li><a href="client.html">Clientele</a></li>
+
+    <li><a href="projects.html">Major Projects</a></li>
+    <li><a href="turnover.html">Turnover in years</a></li>
+    <li><a href="service.html">Services</a></li>
+    <li><a href="equipments.html">Fleet of Equipments</a></li>
+    <li><a href="career.html">Career</a></li>
+    <li><a href="contact.html">Contact</a></li>
+
+  </ul>
+
+  <!-- hero session-->
+
+  <section class="hero">
+    <div class="carousel">
+      <div class="slide fade">
+        <img src="indeximg1.jpg" alt="Construction 1">
+      </div>
+      <div class="slide fade">
+        <img src="indeximg2.jpg" alt="Construction 2">
+      </div>
+      <div class="slide fade">
+        <img src="indeximg3.jpg" alt="Construction 3">
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <h1>Committed to superior quality</h1>
+      <p>We provide always our best services for our clients.</p>
+      <a href="about.html" class="btn">View More</a>
+    </div>
+    <!-- Navigation Buttons  -->
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+  </section>
+
+
+
+
+
+
+  <!-- about session -->
+
+  <section class="about">
+    <div class="about-container">
+      <div class="about-text">
+        <span class="about-badge">About Us</span>
+        <h2>Asian Borewells</h2>
+        <p>
+          Asian Borewells is a premier borewell drilling company based in Kochi, Kerala, dedicated to delivering
+          high-quality water well solutions for residential, commercial, industrial, and government projects. Our
+          expertise, combined with cutting-edge technology and a commitment to innovation, makes us a trusted partner in
+          sustainable water management.
+        </p>
+
+        <div class="stats">
+          <div class="stat">
+            <h3><span class="counter" data-target="150">0</span>+</h3>
+            <p>Projects Delivered</p>
+          </div>
+          <div class="stat">
+            <h3><span class="counter" data-target="1000">0</span>+</h3>
+            <p>Road Constructed (K.M.)</p>
+          </div>
+          <div class="stat">
+            <h3><span class="counter" data-target="2000">0</span>+</h3>
+            <p>Workforce</p>
+          </div>
+          <div class="stat">
+            <h3><span class="counter" data-target="1200">0</span>+</h3>
+            <p>Equipments</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-image">
+        <img src="img.jpeg" alt="About EKK Infrastructure">
+        <div class="experience-badge">
+          <h3><span class="counter" data-target="30">0</span>+</h3>
+          <p>Years of experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- slide show -->
+
+  <section class="carousel1">
+    <div class="carousel1-container">
+      <!-- Slide 1: Airport -->
+      <div class="carousel1-slide">
+        <img src="service-img1.jpg" alt="Airport">
+        <div class="slide1-content">
+          <h3>Borewell Drilling Services</h3>
+          <p>We provide expert borewell drilling services for residential, commercial, and agricultural needs.</p>
+          <a href="service.html" class="learn-more">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Slide 2: Water Irrigation Work -->
+      <div class="carousel1-slide">
+        <img src="service-img2.jpg" alt="Water Irrigation">
+        <div class="slide1-content">
+          <h3> Borewell Cleaning & Maintenance
+          </h3>
+          <p>
+            Regular borewell maintenance ensures a continuous and safe water supply.
+          </p>
+          <a href="service.html" class="learn-more">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3: Road Construction -->
+      <div class="carousel1-slide">
+        <img src="service-img3.jpg" alt="Road Construction">
+        <div class="slide1-content">
+          <h3>Borewell Reboring & Deepening</h3>
+          <p>
+            If your borewell has dried up or provides insufficient water, our reboring and deepening services help
+            restore its functionality.
+          </p>
+          <a href="service.html" class="learn-more">Learn More</a>
+        </div>
+      </div>
+
+      <div class="carousel1-slide">
+        <img src="service-img4.jpg" alt="Road Construction">
+        <div class="slide1-content">
+          <h3>Borewell Flushing & Jet Cleaning</h3>
+          <p>
+            Our flushing and jet cleaning services remove blockages using high-pressure water jets, improving borewell
+            performance.
+          </p>
+          <a href="service.html" class="learn-more">Learn More</a>
+        </div>
+      </div>
+
+      <div class="carousel1-slide">
+        <img src="service-img5.png" alt="Road Construction">
+        <div class="slide1-content">
+          <h3>Borewell Camera Inspection</h3>
+          <p>
+            We use high-resolution borewell cameras to inspect internal conditions, detecting blockages, damages, or
+            contamination.
+          </p>
+          <a href="service.html" class="learn-more">Learn More</a>
+        </div>
+      </div>
+
+      <div class="carousel1-slide">
+        <img src="service-img6.jpg" alt="Road Construction">
+        <div class="slide1-content">
+          <h3>Water Yield Testing</h3>
+          <p>
+            Using scientific methods, we assess water availability, helping in efficient planning for domestic,
+            agricultural, and industrial applications.
+          </p>
+          <a href="service.html" class="learn-more">Learn More</a>
+        </div>
+      </div>
+
+      <div class="carousel1-slide">
+        <img src="service-img7.jpg" alt="Road Construction">
+        <div class="slide1-content">
+          <h3>Submersible & Hand Pump Installation
+          </h3>
+          <p>
+            We specialize in the installation of high-quality submersible and hand pumps for borewells..
+          </p>
+          <a href="service.html" class="learn-more">Learn More</a>
+        </div>
+      </div>
+
+      <div class="carousel1-slide">
+        <img src="service-img8.jpg" alt="Road Construction">
+        <div class="slide1-content">
+          <h3>Rainwater Harvesting & Groundwater Recharge</h3>
+          <p>
+            We design efficient systems that collect, filter, and store rainwater, reducing dependency on borewells and
+            ensuring long-term water sustainability.
+          </p>
+          <a href="service.html" class="learn-more">Learn More</a>
+        </div>
+      </div>
+
+      <div class="carousel1-slide">
+        <img src="service-img9.png" alt="Road Construction">
+        <div class="slide1-content">
+          <h3>Borewell Consultation & Site Survey</h3>
+          <p>
+            Our expert consultation ensures maximum water yield, cost efficiency, and long-term sustainability.
+          </p>
+          <a href="service.html" class="learn-more">Learn More</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+  </section>
+
+
+
+  <section class="gallery-section">
+    <div class="gallery-header">
+      <span class="portfolio-label">Portfolio</span>
+      <h2>WORKING GALLERY</h2>
+    </div>
+
+
+
+    <!-- Gallery Grid -->
+    <div class="gallery-grid">
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg1.jpg" alt="Chalakudy Underpass">
+        <div class="overlay">Indian railway</div>
+      </div>
+
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg2.jpg" alt="Neeleswaram ROB">
+        <div class="overlay">Cochin shipyard</div>
+      </div>
+
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg3.jpg" alt="Thiruvallur-Veppampattu Bypass">
+        <div class="overlay">Ins dronacharya</div>
+      </div>
+
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg4.jpg" alt="Kochi-Munnar">
+        <div class="overlay">Cial airport</div>
+      </div>
+
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg5.jpg" alt="Highway Project">
+        <div class="overlay">Metro</div>
+      </div>
+
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg6.jpg" alt="Bridge Construction">
+        <div class="overlay">Wonderla</div>
+      </div>
+
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg7.jpg" alt="Cochin International Airport">
+        <div class="overlay">DP World</div>
+      </div>
+
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg8.jpg" alt="Cochin International Airport">
+        <div class="overlay">Ekk infrastructure</div>
+      </div>
+
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg9.jpg" alt="Cochin International Airport">
+        <div class="overlay">Asset</div>
+      </div>
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg10.jpg" alt="Cochin International Airport">
+        <div class="overlay">South indian bank</div>
+      </div>
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg11.jpg" alt="Cochin International Airport">
+        <div class="overlay">Cochin shipyard</div>
+      </div>
+      <div class="gallery-item" data-category="completed">
+        <img src="galleryimg12.jpg" alt="Cochin International Airport">
+        <div class="overlay">Lulu</div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="features-section">
+    <!-- Features Label -->
+    <div class="features-header">
+      <span class="features-label">Features</span>
+      <h2>To increase productivity and cost-effectiveness in the market</h2>
+    </div>
+
+    <!-- Features List -->
+    <div class="features-grid">
+      <div class="feature-item">
+        <img src="qualityicon.png" alt="Quality Icon">
+        <h3>QUALITY</h3>
+        <p>Each of our engineers has the ability and integrity to monitor, report, and evaluate quality controls. We
+          constantly strive to exceed our client expectations.</p>
+      </div>
+
+      <div class="feature-item">
+        <img src="reliabilityicon.png" alt="Reliability Icon">
+        <h3>RELIABILITY</h3>
+        <p>We consistently strive for excellence in our projects. Which builds to achieve beauty,
+          functionality, and durability for our customers.</p>
+      </div>
+
+      <div class="feature-item">
+        <img src="experienceicon.png" alt="Experience Icon">
+        <h3>EXPERIENCE</h3>
+        <p>Asian Borewells always believes in innovation and brings about such changes in the way of construction so
+          that it becomes
+          the benchmark for the industry to follow and replicate.</p>
+      </div>
+
+      <div class="feature-item">
+        <img src="constuctionicon.png" alt="Construction Icon">
+        <h3>CONSTRUCTION</h3>
+        <p>Consultants are highly specialized and are available for architecture, structural designs, soil
+          investigation, and viability studies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="clients-section">
+    <!-- Clients Label -->
+    <div class="clients-header" style="text-align: center;margin-top: 30px;">
+      <span class=" clients-label">Clients</span>
+      <h2>Our Prestigious Clients</h2>
+    </div>
+
+    <!-- Clients Logos -->
+    <div class="clients-grid">
+      <div class="client-item">
+        <img src="logo1.jpg" alt="TNRSP">
+      </div>
+      <div class="client-item">
+        <img src="logo2.png" alt="Client 2">
+      </div>
+      <div class="client-item">
+        <img src="logo3.jpeg" alt="Client 3">
+      </div>
+      <div class="client-item">
+        <img src="logo4.png" alt="Cochin Airport">
+      </div>
+      <div class="client-item">
+        <img src="logo5.png" alt="Client 5">
+      </div>
+      <div class="client-item">
+        <img src="logo6.png" alt="Client 5">
+      </div>
+      <div class="client-item">
+        <img src="logo7.jpeg" alt="Client 5">
+      </div>
+      <div class="client-item">
+        <img src="logo8.png" alt="Client 5">
+      </div>
+      <div class="client-item">
+        <img src="logo9.jpeg" alt="Client 5">
+      </div>
+      <div class="client-item">
+        <img src="logo10.jpeg" alt="Client 5">
+      </div>
+      <div class="client-item">
+        <img src="logo11.png" alt="Client 5">
+      </div>
+      <div class="client-item">
+        <img src="logo12.png" alt="Client 5">
+      </div>
+      <div class="client-item">
+        <img src="logo13.jpeg" alt="Client 5">
+      </div>
+      <div class="client-item">
+        <img src="logo14.jpeg" alt="Client 5">
+      </div>
+    </div>
+  </section>
+
+  <!-- Call-to-Action Section -->
+  <div class="cta-section">
+    <p>WANT TO KNOW MORE ABOUT EKK INFRASTRUCTURE LIMITED PROJECTS AND SERVICES?</p>
+    <button class="cta-button"><a href="contact.html" style="text-decoration: none;">Enquire Now →</a></button>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Corporate Office -->
+      <div class="footer-section">
+        <h3>Corporate Office</h3>
+        <p><strong>ASIAN BOREWELLS & PUMPS</strong></p>
+        <p>Panvel - Kochi - Kanyakumari Hwy,</p>
+        <p>Ponnurunni, Vyttila – 682032,</p>
+        <p>Ernakulam – Kerala</p>
+      </div>
+
+      <!-- Company Links -->
+      <div class="footer-section">
+        <h3>Company</h3>
+        <p><a href="client.html">Clients</a></p>
+        <p><a href="quality.html">Quality Policy</a></p>
+        <p><a href="about.html">Company Profile</a></p>
+      </div>
+
+
+
+      <!-- Connect Us -->
+      <div class="footer-section">
+        <h3>Connect Us</h3>
+        <p>📞 <a href="tel:+919447826375">+91-94478-26375</a></p>
+        <p>📱 <a href="tel:+919447503892">+91-94475-03892</a></p>
+        <p>✉️ <a href="mailto:asianborewellsandpumps.kerala@gmail.com">asianborewellsandpumps.kerala@gmail.com</a></p>
+        <p>🌐 <a href="http://127.0.0.1:5500/" target="_blank">www.asianborewell.co.in</a></p>
+      </div>
+
+      <!-- Projects -->
+      <div class="footer-section">
+        <h3>Projects</h3>
+        <p><a href="projects.html">Major Projects</a></p>
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+  </footer>
+
+  <!-- Bottom Section -->
+  <div class="footer-bottom">
+    <p>Copyright © ekk.co.in. Developed by: Creative Web Designer.</p>
+    <div class="social-icons">
+      <a href="https://m.facebook.com/p/Asian-Borewell-and-Pumps-100068180545076/"><img src="facebook.png"
+          alt="Facebook"></a>
+
+      <a href="https://www.instagram.com/asian_borewells_kerala/?locale=de&hl=am-et"><img src="insta.png"
+          alt="Instagram"></a>
+      <a href="https://www.youtube.com/channel/UC6-QHeANscMWt4uvyZGsXww"><img src="youtube.png" alt="YouTube"></a>
+      <a
+        href="https://www.justdial.com/Ernakulam/Asian-Borewell-And-Pumps-Near-Bye-Pass-Road-Kothamangalam-Ernakulam/0484PX484-X484-180212144516-A6A2_BZDET"><img
+          src="justdialicon.png" style="width: 30px;" alt="Facebook"></a>
+      <a href="https://www.quickerala.com/amp/ernakulam/perumbavoor/asian-borewells-and-pumps/441832"><img
+          src="quickkeralaicon.jpg" alt="Facebook"></a>
+    </div>
+    <a href="#" class="scroll-top">⬆</a>
+  </div>
+
+
+</body>
+
+</html>
