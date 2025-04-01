@@ -789,6 +789,15 @@ body {
   }
 }
 
+
+@media (min-width:769px) and (max-width: 1168px) {
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
 /* Clients Label */
 .clients-label {
   background-color: rgba(242, 60, 108, 0.899);

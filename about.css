@@ -320,14 +320,32 @@ li {
 
 @media (max-width: 768px) {
   .aboutt {
-    margin: 0px;
+    margin: 0px 25px;
   }
 
   .container {
     flex-direction: column;
+    margin: 50px 25px;
   }
 
 
+}
+
+@media (min-width:769px) and (max-width: 1168px) {
+  .container {
+    flex-direction: column;
+    margin: 50px 25px;
+  }
+
+  .aboutt {
+    margin: 50px 25px;
+
+  }
+
+  .image-content img {
+    height: 450px;
+    width: 550px;
+  }
 }
 
 /* Call-to-Action Section */
