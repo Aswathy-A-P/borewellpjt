@@ -28,7 +28,7 @@ html {
 }
 
 .enquire-btn {
-  background-color: rgba(242, 60, 108, 0.899);
+  background-color: rgb(214, 168, 15);
   color: white;
   padding: 10px 15px;
   text-decoration: none;
@@ -41,7 +41,7 @@ html {
 
 .navbar {
   position: fixed;
-  top: 56px;
+  top: 0px;
   /* Below the top bar */
   left: 0;
   width: 100%;
@@ -56,9 +56,9 @@ html {
 }
 
 .navbar img {
-  width: 150px;
-  height: 60px;
-  margin-left: 10px;
+  width: 100px;
+  height: 50px;
+  margin-left: 15px;
 }
 
 /* Add padding to body so content doesn't go under the navbar */
@@ -87,7 +87,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: rgba(242, 60, 108, 0.899);
+  color: rgb(214, 168, 15);
 }
 
 /* Dropdown Styling */
@@ -117,7 +117,7 @@ body {
 
 .dropdown-menu a:hover {
   background-color: #f0f0f0;
-  color: rgba(242, 60, 108, 0.899);
+  color: rgb(214, 168, 15);
 }
 
 
@@ -131,6 +131,7 @@ body {
   font-size: 24px;
   cursor: pointer;
   display: none;
+  margin-right: 15px;
 }
 
 .mobile-menu {
@@ -143,7 +144,6 @@ body {
   left: 0;
   width: 100%;
   padding: 10px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .mobile-menu li {
@@ -156,7 +156,7 @@ body {
   text-decoration: none;
 
   /* color: #333; */
-  color: rgba(242, 60, 108, 0.899);
+  color: rgb(214, 168, 15);
   display: block;
 }
 
@@ -179,7 +179,7 @@ body {
   }
 
   .spaced {
-    margin-top: 600px;
+    margin-top: 570px;
     /* Space added when hamburger is clicked */
   }
 
@@ -211,6 +211,10 @@ body {
   justify-content: center;
   overflow: hidden;
   /* Ensures no extra spacing */
+}
+
+.about-banner h1 {
+  color: white;
 }
 
 
@@ -282,7 +286,7 @@ body {
 }
 
 .text-content h2 {
-  color: rgba(242, 60, 108, 0.899);
+  color: rgb(214, 168, 15);
   font-size: 22px;
 }
 
@@ -307,7 +311,7 @@ body {
 }
 
 .aboutt h2 {
-  color: rgba(242, 60, 108, 0.899);
+  color: rgb(214, 168, 15);
   font-size: 22px;
 }
 
@@ -350,7 +354,7 @@ li {
 
 /* Call-to-Action Section */
 .cta-section {
-  background-color: rgba(242, 60, 108, 0.899);
+  background-color: rgb(214, 168, 15);
   color: white;
   padding: 15px;
   font-size: 16px;

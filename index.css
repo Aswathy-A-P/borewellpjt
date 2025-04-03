@@ -10,7 +10,7 @@ html {
 
 
 /* Top Bar */
-.top-bar {
+/* .top-bar {
 
   background-color: black;
   color: white;
@@ -24,7 +24,7 @@ html {
   left: 0;
   width: 100%;
 
-}
+} */
 
 .contact-info span {
   margin-right: 15px;
@@ -44,7 +44,7 @@ html {
 
 .navbar {
   position: fixed;
-  top: 56px;
+  top: 0px;
   /* Below the top bar */
   left: 0;
   width: 100%;
@@ -59,14 +59,15 @@ html {
 }
 
 .navbar img {
-  width: 150px;
-  height: 60px;
-  margin-left: 10px;
+  width: 110px;
+  height: 40px;
+  margin-left: 15px;
+
 }
 
 /* Add padding to body so content doesn't go under the navbar */
 body {
-  padding-top: 80px;
+  padding-top: 60px;
   /* Adjusted for sticky top bar + navbar */
 }
 
@@ -89,7 +90,8 @@ body {
 }
 
 .nav-links a:hover {
-  color: rgba(242, 60, 108, 0.899);
+  color: rgb(214, 168, 15);
+  ;
 }
 
 /* Dropdown Styling */
@@ -119,7 +121,8 @@ body {
 
 .dropdown-menu a:hover {
   background-color: #f0f0f0;
-  color: rgba(242, 60, 108, 0.899);
+  /* color: rgba(242, 60, 108, 0.899); */
+  color: rgb(214, 168, 15);
 }
 
 
@@ -131,6 +134,7 @@ body {
 /* Mobile Menu */
 .hamburger-menu {
   font-size: 24px;
+  margin-right: 15px;
   cursor: pointer;
   display: none;
 }
@@ -141,7 +145,8 @@ body {
   flex-direction: column;
   background-color: white;
   position: absolute;
-  top: 100px;
+  /* top: 100px; */
+
   left: 0;
   width: 100%;
   padding: 10px;
@@ -149,15 +154,15 @@ body {
 }
 
 .mobile-menu li {
-  padding: 10px;
+  padding: 15px;
   display: block;
 
 }
 
 .mobile-menu a {
   text-decoration: none;
-  color: rgba(242, 60, 108, 0.899);
-  ;
+  color: rgb(214, 168, 15);
+
   display: block;
 }
 
@@ -165,6 +170,8 @@ body {
 
 /* Responsive for Mobile */
 @media (max-width: 930px) {
+
+
   .nav-links {
     display: none;
   }
@@ -178,11 +185,13 @@ body {
   }
 
   .spaced {
-    margin-top: 500px;
+    margin-top: 590px;
   }
 
   .navbar img {
     margin-top: 20PX;
+    width: 60px;
+    height: 40px;
   }
 
   .contact-info {
@@ -314,6 +323,8 @@ body {
   border-radius: 8px;
 }
 
+
+
 .hero h1 {
   font-size: 40px;
 }
@@ -325,8 +336,9 @@ body {
 
 .btn {
   display: inline-block;
-  background: rgba(242, 60, 108, 0.899);
+  background: rgb(214, 168, 15);
   color: white;
+  /* color: black; */
   padding: 10px 20px;
   margin-top: 10px;
   text-decoration: none;
@@ -412,7 +424,8 @@ body {
 
 .about-badge {
   display: inline-block;
-  background: rgba(242, 60, 108, 0.899);
+  background: rgb(214, 168, 15);
+  ;
   color: white;
   font-weight: bold;
   padding: 6px 14px;
@@ -447,7 +460,8 @@ body {
 
 .stat h3 {
   font-size: 28px;
-  color: rgba(242, 60, 108, 0.899);
+  color: rgb(214, 168, 15);
+  ;
   margin-bottom: 5px;
 }
 
@@ -475,7 +489,7 @@ body {
   position: absolute;
   bottom: 20px;
   left: -50px;
-  background: rgba(242, 60, 108, 0.899);
+  background: rgb(214, 168, 15);
   color: white;
   padding: 20px;
   text-align: center;
@@ -510,6 +524,8 @@ body {
     position: static;
     margin-top: 20px;
   }
+
+
 }
 
 @media (max-width: 600px) {
@@ -636,7 +652,7 @@ body {
 
 /* Portfolio Label */
 .portfolio-label {
-  background-color: rgba(242, 60, 108, 0.899);
+  background-color: rgb(214, 168, 15);
   color: white;
   font-size: 14px;
   font-weight: bold;
@@ -669,7 +685,7 @@ body {
 }
 
 .filter-btn.active {
-  background-color: rgba(242, 60, 108, 0.899);
+  background-color: rgb(214, 168, 15);
   color: white;
 }
 
@@ -722,7 +738,8 @@ body {
 
 /* Features Label */
 .features-label {
-  background-color: rergba(242, 60, 108, 0.899)d;
+  background-color: rgb(214, 168, 15);
+  ;
   color: white;
   font-size: 14px;
   font-weight: bold;
@@ -800,7 +817,7 @@ body {
 
 /* Clients Label */
 .clients-label {
-  background-color: rgba(242, 60, 108, 0.899);
+  background-color: rgb(214, 168, 15);
   color: white;
   font-size: 14px;
   font-weight: bold;
@@ -851,7 +868,8 @@ body {
 
 /* Call-to-Action Section */
 .cta-section {
-  background-color: rgba(242, 60, 108, 0.899);
+  background-color: rgb(214, 168, 15);
+  ;
   color: white;
   padding: 15px;
   font-size: 16px;
